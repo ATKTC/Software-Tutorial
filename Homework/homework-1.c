@@ -7,6 +7,6 @@ int main() {
         readIRSensor();
         print_sensorArray();
         print_Thresholded_values();
-        _sleep(1000);
+        // _sleep(1000);
     }
 }
