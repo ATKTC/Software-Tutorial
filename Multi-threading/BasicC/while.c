@@ -5,10 +5,9 @@ int main(){
     while(1){
         while (1)
         {
-            if(x++) 
-                break;
-            
-            printf("inner\n");
+            if(x==10) break;
+            ++x;
+            printf("inner   %d\n", x);
         }
         printf("outer\n");
     }
