@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "irsensor.h": "c"
+        "irsensor.h": "c",
+        "pthread.h": "c"
     }
 }
